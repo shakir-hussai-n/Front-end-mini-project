@@ -1,0 +1,20 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.bubble{
+    width: 95%;
+    height: 100vh;
+    background:linear-gradient(to left,rgb(255,204,78),rgb(255,242,205));
+    
+}
+.sidebar{
+    width: 5%;
+    height: 100vh;
+    background-color:rgba(255,242,205,0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
