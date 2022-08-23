@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>loging web page</title>
+        <meta charset="UTF-8">
+        <meta type="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body class="body-cont">
+        <nav class="nav-cont">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
+            </div>
+            <div class="social-icon"> 
+               <img src="icon/fb.png" alt="facebook-icon">
+               <img src="icon/gp.png" alt="google-icon">
+               <img src="icon/tw.png" alt="twitter-icon">
+            </div>
+            <div class="form-cont">
+                <form id="login" class="form-field">
+                    <input type="text" class="input-area" placeholder="User Id" required>
+                    <input type="password" class="input-area" placeholder="Enter Password" required>
+                    <input type="checkbox"  class="checkbox"><span>Remember password</span>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+                <form id="register" class="form-field">
+                    <input type="text" class="input-area" placeholder="User Id" required>
+                    <input type="email" class="input-area" placeholder="Input Email" required>
+                    <input type="password" class="input-area" placeholder="Enter Password" required>
+                    <input type="checkbox"  class="checkbox"><span>Agree</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+                
+            </div> 
+        </nav>
+        <script src="script.js">
+           
+        </script>
+    </body>
+</html>
