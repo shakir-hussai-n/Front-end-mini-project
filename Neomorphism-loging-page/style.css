@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(244,140,6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.neomorphism-login{
+    width:350px;
+    height:500px;
+    box-shadow: 10px 10px 15px 0px rgb(242, 232, 232),-5px -5px 15px 0px rgb(247, 243, 243);
+    border-radius: 35px;
+    
+}
+.logo{
+    width: 75px;
+    margin: 30px auto 15px;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 0px rgb(246, 243, 243)
+}
+.font-cont{
+    text-align: center;
+}
+.login-cont{
+    width: 100%;
+    padding: 40px 5px 5px 5px;
+}
+.user-input{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 4px 4px 2px rgb(128, 114, 114),inset -4px -4px 2px #fff;
+}
+ .user-input input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 10px 20px 5px;
+}
+.logo-icon{
+    width: 35px;
+    margin: 0 10px -10px 25px; 
+   
+}
+.sign-button{
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgb(244, 243, 249);
+}
+.sign-button:hover{
+    background-color:rgb(159, 209, 157);
+}
