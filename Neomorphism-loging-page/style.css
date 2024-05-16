@@ -25,10 +25,12 @@
     margin: 30px auto 15px;
     display: block;
     border-radius: 50px;
-    box-shadow: 5px 5px 10px 0px rgb(246, 243, 243)
+    box-shadow: 5px 5px 10px 0px rgb(246, 243, 243);
+    cursor: pointer;
 }
 .font-cont{
     text-align: center;
+    cursor:default;
 }
 .login-cont{
     width: 100%;
@@ -50,6 +52,7 @@
 .logo-icon{
     width: 35px;
     margin: 0 10px -10px 25px; 
+
    
 }
 .sign-button{
